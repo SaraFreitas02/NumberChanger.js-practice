@@ -1,0 +1,57 @@
+/*Flexbox*/
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.just-cont {
+    justify-content: center;
+}
+
+/*Btns*/
+button {
+    margin: 5%;
+    background-color: transparent;
+    border-radius: 30%;
+    border-color: gray;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/*Headings*/
+h1,
+h2 {
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+/*adjustments*/
+.background {
+    margin: 5%;
+    padding: 10%;
+    width: 33%;
+    background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 2px 2px gray;
+}
+
+.text-align {
+    text-align: center;
+}
